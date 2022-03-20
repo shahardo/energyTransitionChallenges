@@ -8,6 +8,8 @@
       ],
       "links": [
       	{"source": "chelenges", "target": "general", "value": 1},
-      	{"source": "chelenges", "target": "largeRoofs", "value": 1}
+      	{"source": "chelenges", "target": "largeRoofs", "value": 1},
+      	{"source": "chelenges", "target": "smallRoofs", "value": 1},
+      	{"source": "chelenges", "target": "dualUse", "value": 1}
       ]
 }
