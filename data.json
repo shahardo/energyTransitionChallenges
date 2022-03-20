@@ -1,8 +1,10 @@
 {
       "nodes": [
-      	{"id": "chelenges", "name": "name", "group": 1},
+      	{"id": "chelenges", "name": "אתגרים", "group": 1},
       	{"id": "general", "name": "רוחבי", "group": 2},
       	{"id": "largeRoofs", "name": "גגות גדולים", "group": 3}
+      	{"id": "smallRoofs", "name": "גגות קטנים", "group": 3}
+      	{"id": "dualUse", "name": "דו שימוש", "group": 3}
       ],
       "links": [
       	{"source": "chelenges", "target": "general", "value": 1},
