@@ -5,21 +5,13 @@
       	{"id": "largeRoofs", "name": "גגות גדולים", "group": 2},
       	{"id": "smallRoofs", "name": "גגות קטנים", "group": 2}, 
       	{"id": "dualUse", "name": "דו שימוש", "group": 2},
-      	{"id": "רוחבי רגולציה", "name": "רגולציה", "group": 3},
-      	{"id": "רוחבי רשת", "name": "רשת", "group": 3},
-      	{"id": "דו-שימוש רשת", "name": "דו-שימוש", "group": 3},
-      	{"id": "גגות קטנים רשת", "name": "גגות קטנים", "group": 3},
-          	{"id": "דו-שימוש רגולציה", "name": "רגולציה", "group": 3}
+      	{"id": "רוחבי רגולציה", "name": "רגולציה", "group": 3}
       ],
       "links": [
       	{"source": "chelenges", "target": "general", "value": 1},
       	{"source": "chelenges", "target": "largeRoofs", "value": 1},
       	{"source": "chelenges", "target": "smallRoofs", "value": 1},
       	{"source": "chelenges", "target": "dualUse", "value": 1},
-      	{"source": "general", "target": "רוחבי רגולציה", "value": 2},
-      	{"source": "general", "target": "רוחבי רשת", "value": 2},
-      	{"source": "dualUse", "target": "דו-שימוש רשת", "value": 2},
-      	{"source": "dualUse", "target": "דו-שימוש רגולציה", "value": 2},
-      	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 2}
+      	{"source": "general", "target": "רוחבי רגולציה", "value": 2}
       ]
 }
