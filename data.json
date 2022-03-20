@@ -13,6 +13,7 @@
       	{"source": "chelenges", "target": "largeRoofs", "value": 1},
       	{"source": "chelenges", "target": "smallRoofs", "value": 1},
       	{"source": "chelenges", "target": "dualUse", "value": 1},
-      	{"source": "general", "target": "רוחבי רגולציה", "value": 2}
+      	{"source": "general", "target": "רוחבי רגולציה", "value": 2},
+      	{"source": "general", "target": "רוחבי רשת", "value": 2}
       ]
 }
