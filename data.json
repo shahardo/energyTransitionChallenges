@@ -11,7 +11,7 @@
       	{"source": "chelenges", "target": "general", "value": 1},
       	{"source": "chelenges", "target": "largeRoofs", "value": 1},
       	{"source": "chelenges", "target": "smallRoofs", "value": 1},
-      	{"source": "chelenges", "target": "dualUse", "value": 1}
-      	{"source": "general", "target": "generalRegulation", "value": 2},
+      	{"source": "chelenges", "target": "dualUse", "value": 1},
+      	{"source": "general", "target": "generalRegulation", "value": 2}
       ]
 }
