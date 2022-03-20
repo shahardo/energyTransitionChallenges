@@ -9,9 +9,7 @@
       	{"id": "רוחבי רשת", "name": "רשת", "group": 3},
       	{"id": "דו-שימוש רשת", "name": "דו-שימוש", "group": 3},
       	{"id": "גגות קטנים רשת", "name": "גגות קטנים", "group": 3},
-          	{"id": "דו-שימוש רגולציה", "name": "רגולציה", "group": 3},
-
-            {"id": "ראיה הוליסטית של הפרויקט", "name": "ראיה הוליסטית של הפרויקט", "group": 1}
+          	{"id": "דו-שימוש רגולציה", "name": "רגולציה", "group": 3}
       ],
       "links": [
       	{"source": "chelenges", "target": "general", "value": 1},
@@ -22,8 +20,6 @@
       	{"source": "general", "target": "רוחבי רשת", "value": 2},
       	{"source": "dualUse", "target": "דו-שימוש רשת", "value": 2},
       	{"source": "dualUse", "target": "דו-שימוש רגולציה", "value": 2},
-      	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 2},
-            
-            {"source": "רוחבי רגולציה", "target": "ראיה הוליסטית של הפרויקט", "value": 4}
+      	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 2}
       ]
 }
