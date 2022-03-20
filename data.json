@@ -6,14 +6,14 @@
       	{"id": "smallRoofs", "name": "גגות קטנים", "group": 2}, 
       	{"id": "dualUse", "name": "דו שימוש", "group": 2},
       	{"id": "רוחבי רגולציה", "name": "רגולציה", "group": 3},
-      	{"id": "רוחבי רשת", "name": "רשת", "group": 3}
+      	{"id": "רוחבי רשת", "name": "רשת", "group": 4}
       ],
       "links": [
       	{"source": "chelenges", "target": "general", "value": 1},
       	{"source": "chelenges", "target": "largeRoofs", "value": 1},
       	{"source": "chelenges", "target": "smallRoofs", "value": 1},
       	{"source": "chelenges", "target": "dualUse", "value": 1},
-      	{"source": "general", "target": "רוחבי רגולציה", "value": 2},
-      	{"source": "general", "target": "רוחבי רשת", "value": 2}
+      	{"source": "general", "target": "רוחבי רגולציה", "value": 2}
+      	//{"source": "general", "target": "רוחבי רשת", "value": 2}
       ]
 }
