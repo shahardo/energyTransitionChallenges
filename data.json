@@ -1,0 +1,11 @@
+{
+      "nodes": [
+      	{"id": "chelenges", "name": "name", "group": 1},
+      	{"id": "general", "name": "רוחבי", "group": 2},
+      	{"id": "largeRoofs", "name": "גגות גדולים", "group": 3}
+      ],
+      "links": [
+      	{"source": "chelenges", "target": "general", "value": 1},
+      	{"source": "chelenges", "target": "largeRoofs", "value": 1}
+      ]
+}
