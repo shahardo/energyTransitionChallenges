@@ -1,4 +1,6 @@
 {
+      "v" : "0.1.001",
+	
       "nodes": [
       	{"id": "chelenges", "name": "אתגרים", "group": 1, "r": 14},
       	{"id": "general", "name": "רוחבי", "group": 2},
