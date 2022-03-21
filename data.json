@@ -1,5 +1,5 @@
 {
-      "v" : "0.1.002",
+      "v" : "0.1.003",
 	
       "nodes": [
       	{"id": "chelenges", "name": "אתגרים", "group": 1, "r": 14},
@@ -101,25 +101,25 @@
 	      
 ],
       "links": [
-      	{"source": "chelenges", "target": "general", "value": 1},
-      	{"source": "chelenges", "target": "largeRoofs", "value": 1},
-      	{"source": "chelenges", "target": "smallRoofs", "value": 1},
-      	{"source": "chelenges", "target": "dualUse", "value": 1},
-      	{"source": "general", "target": "רוחבי רגולציה", "value": 2},
+      	{"source": "chelenges", "target": "general", "value": 3},
+      	{"source": "chelenges", "target": "largeRoofs", "value": 3},
+      	{"source": "chelenges", "target": "smallRoofs", "value": 3},
+      	{"source": "chelenges", "target": "dualUse", "value": 3},
+      	{"source": "general", "target": "רוחבי רגולציה", "value": 3},
       	{"source": "general", "target": "רוחבי רשת", "value": 3},
-      	{"source": "dualUse", "target": "דו-שימוש רשת", "value": 2},
-      	{"source": "dualUse", "target": "דו-שימוש רגולציה", "value": 2},
-      	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 2},
+      	{"source": "dualUse", "target": "דו-שימוש רשת", "value": 3},
+      	{"source": "dualUse", "target": "דו-שימוש רגולציה", "value": 3},
+      	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 3},
 	      
 {"source": "רוחבי רגולציה", "target": "ראיה הוליסטית של הפרויקט", "value": 1},
 {"source": "רוחבי רגולציה", "target": "סמכויות מבוזרות בין משרדי ממשלה", "value": 1},
-{"source": "רוחבי רגולציה", "target": "הנחיות תכנוניות PV בתוכניות חדשות", "value": 4},
-{"source": "רוחבי רגולציה", "target": "קידם תוכניות להקמת PV בשטחים לפיתח ארוך טווח", "value": 4},
-{"source": "רוחבי רגולציה", "target": "אין הליכים אחידים", "value": 4},
-{"source": "רוחבי רגולציה", "target": "צימוד דרישות לא רלוונטיות", "value": 4},
+{"source": "רוחבי רגולציה", "target": "הנחיות תכנוניות PV בתוכניות חדשות", "value": 1},
+{"source": "רוחבי רגולציה", "target": "קידם תוכניות להקמת PV בשטחים לפיתח ארוך טווח", "value": 1},
+{"source": "רוחבי רגולציה", "target": "אין הליכים אחידים", "value": 1},
+{"source": "רוחבי רגולציה", "target": "צימוד דרישות לא רלוונטיות", "value": 1},
 {"source": "רוחבי רגולציה", "target": "צימוד דרישות לא רלוונטיות", "value": 4},
 {"source": "רוחבי רגולציה", "target": "בעיית \"שחקן חוזר\"", "value": 4},
-{"source": "רוחבי רשת", "target": "אסדרת אגירה באתרי ייצור ובתחמ\"שים", "value": 4},
+{"source": "רוחבי רשת", "target": "אסדרת אגירה באתרי ייצור ובתחמ\"שים", "value": 1},
 {"source": "רוחבי רשת", "target": "הוספת שנאים בתחמ\"שים", "value": 4},
 {"source": "רוחבי רשת", "target": "אסדרת אגירה במתח עליון", "value": 4},
 {"source": "רוחבי רשת", "target": "לעודד הוספת אגירה במערכות PV קיימות", "value": 4},
@@ -134,7 +134,15 @@
 {"source": "רוחבי רגולציה", "target": "להגדיר אמות מידה לזמן תגובה או SLA", "value": 4},
 	      
 {"source": "רוחבי רגולציה", "target": "לשמור מכסות ליזמים שקיבלו תשובות מחלק שליליות", "value": 4},
-{"source": "רוחבי רגולציה", "target": "אין אחידות בין דרישות הועדות המחוזיות למקומיות", "value": 4}
+{"source": "רוחבי רגולציה", "target": "אין אחידות בין דרישות הועדות המחוזיות למקומיות", "value": 4},
+	      
+{"source": "רוחבי רשת", "target": "סמכות מנהל מערכת לשדרוג שנאים", "value": 1},
+{"source": "רוחבי רשת", "target": "מפת מקום ברשת \"חיה\"", "value": 1},
+{"source": "רוחבי רגולציה", "target": "מרכז מידע לחוקרים", "value": 1},
+{"source": "רוחבי רגולציה", "target": "פיתוח מדדים לעמידה ביעדים", "value": 1},
+{"source": "רוחבי רגולציה", "target": "העלאת קיבולת שנאים", "value": 1},
+{"source": "רוחבי רגולציה", "target": "לאפשר הקמת PV בעת הגשת תוכניות", "value": 1},
+{"source": "גגות גדולים רגולציה", "target": "חיוב PV על גגות גדולים חדשים", "value": 1}
 
       ]
 }
