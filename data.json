@@ -7,12 +7,15 @@
       	{"id": "largeRoofs", "name": "גגות גדולים", "group": 2},
       	{"id": "smallRoofs", "name": "גגות קטנים", "group": 2}, 
       	{"id": "dualUse", "name": "דו שימוש", "group": 2},
+      	{"id": "מאגרי מים", "name": "מאגרי מים", "group": 2},
       	{"id": "רוחבי רגולציה", "name": "רגולציה", "group": 3},
       	{"id": "רוחבי רשת", "name": "רשת", "group": 4},
 	{"id": "דו-שימוש רשת", "name": "רשת", "group": 4},
-      	{"id": "גגות קטנים רשת", "name": "רשת", "group": 4},
-      	{"id": "גגות גדולים רגולציה", "name": "רגולציה", "group": 4},
         {"id": "דו-שימוש רגולציה", "name": "רגולציה", "group": 4},
+      	{"id": "גגות קטנים רשת", "name": "רשת", "group": 4},
+      	{"id": "גגות קטנים רגולציה", "name": "רגולציה", "group": 4},
+      	{"id": "גגות גדולים רגולציה", "name": "רגולציה", "group": 4},
+      	{"id": "מאגרי מים רגולציה", "name": "רגולציה", "group": 4},
 	      
 {"id": "ראיה הוליסטית של הפרויקט", "name": "ראיה הוליסטית של הפרויקט", "group": 1},
 {"id": "סמכויות מבוזרות בין משרדי ממשלה", "name": "סמכויות מבוזרות בין משרדי ממשלה", "group": 1},
@@ -106,12 +109,15 @@
       	{"source": "chelenges", "target": "largeRoofs", "value": 3},
       	{"source": "chelenges", "target": "smallRoofs", "value": 3},
       	{"source": "chelenges", "target": "dualUse", "value": 3},
+      	{"source": "chelenges", "target": "מאגרים", "value": 3},
       	{"source": "general", "target": "רוחבי רגולציה", "value": 3},
       	{"source": "general", "target": "רוחבי רשת", "value": 3},
       	{"source": "dualUse", "target": "דו-שימוש רשת", "value": 3},
       	{"source": "dualUse", "target": "דו-שימוש רגולציה", "value": 3},
       	{"source": "smallRoofs", "target": "גגות קטנים רשת", "value": 3},
+      	{"source": "smallRoofs", "target": "גגות קטנים רגולציה", "value": 3},
       	{"source": "largeRoofs", "target": "גגות גדולים רגולציה", "value": 3},
+      	{"source": "מאגרי מים", "target": "מאגרי מים רגולציה", "value": 3},
 	      
 {"source": "רוחבי רגולציה", "target": "ראיה הוליסטית של הפרויקט", "value": 1},
 {"source": "רוחבי רגולציה", "target": "סמכויות מבוזרות בין משרדי ממשלה", "value": 1},
@@ -144,7 +150,18 @@
 {"source": "רוחבי רגולציה", "target": "פיתוח מדדים לעמידה ביעדים", "value": 1},
 {"source": "רוחבי רגולציה", "target": "העלאת קיבולת שנאים", "value": 1},
 {"source": "רוחבי רגולציה", "target": "לאפשר הקמת PV בעת הגשת תוכניות", "value": 1},
-{"source": "גגות גדולים רגולציה", "target": "חיוב PV על גגות גדולים חדשים", "value": 1}
+{"source": "גגות גדולים רגולציה", "target": "חיוב PV על גגות גדולים חדשים", "value": 1},
+	      
+{"source": "רוחבי רגולציה", "target": "פרסום אנשי קשר להיתר בניה", "value": 1},
+{"source": "רוחבי רגולציה", "target": "One stop shop", "value": 1},
+{"source": "רוחבי רגולציה", "target": "מערכת אחודה בחח\"י", "value": 1},
+{"source": "רוחבי רגולציה", "target": "מערכת אחודה בחח\"י", "value": 1},
+{"source": "גגות קטנים רגולציה", "target": "ועד בית כישות משפטית לקבלת הלוואות", "value": 1},
+{"source": "מאגרי מים רגולציה", "target": "מאגרי מים ללא תוכנית מפורטת", "value": 1},
+{"source": "מאגרי מים רגולציה", "target": "היתר בניה למאגרים", "value": 1},
+{"source": "דו-שימוש רגולציה", "target": "דו שימוש עדין דורש היתר", "value": 1},
+{"source": "דו-שימוש רגולציה", "target": "להפריד תעריפם עם קונסטרוקציה", "value": 1}
+	      
 
       ]
 }
